@@ -23,27 +23,44 @@ linkedin-cv-classifier/
 📘 7_final_evaluation.ipynb
         
     📂 src/                      # Python源代码（可重用的函数）
+
         📄 __init__.py
+
         📄 data_loader.py       # 加载数据的功能
+
         📄 text_cleaner.py      # 清洗文本的功能
+
         📄 feature_extractor.py # 提取特征的功能
+
         📄 model_utils.py       # 模型训练和评估工具
 
+
     📂 config/                   # 配置文件
+
         📄 labels.yaml          # 职业领域和资历的标签定义
 
     📂 data/                     # 数据文件夹（可能需要.gitignore）
+
         📂 raw/                 # 原始数据
+
         📂 processed/           # 处理后的数据
+
         📂 external/            # 外部数据（如SNAPADDY测试数据）
 
+
     📂 models/                   # 保存训练好的模型
+
         📄 domain_classifier.pkl
+
         📄 seniority_predictor.pkl
 
+
     📂 reports/                  # 生成的报告和图表
+
         📄 confusion_matrix.png
+
         📄 feature_importance.png
+
 This GitHub template includes fictional Python library
 with some basic Sphinx docs.
 
