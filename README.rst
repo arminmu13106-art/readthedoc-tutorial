@@ -6,14 +6,14 @@ linkedin-cv-classifier/
 📄 README.md                 
 📄 requirements.txt 
 
-    📂 notebooks/                # Jupyter笔记本（主要工作区）
-        📘 1_data_exploration.ipynb
-        📘 2_data_preprocessing.ipynb
-        📘 3_feature_engineering.ipynb
-        📘 4_rule_based_baseline.ipynb
-        📘 5_embedding_approach.ipynb
-        📘 6_model_training.ipynb
-        📘 7_final_evaluation.ipynb
+📂 notebooks/                # Jupyter笔记本（主要工作区）
+📘 1_data_exploration.ipynb
+📘 2_data_preprocessing.ipynb
+📘 3_feature_engineering.ipynb
+📘 4_rule_based_baseline.ipynb
+📘 5_embedding_approach.ipynb
+📘 6_model_training.ipynb
+📘 7_final_evaluation.ipynb
         
     📂 src/                      # Python源代码（可重用的函数）
         📄 __init__.py
